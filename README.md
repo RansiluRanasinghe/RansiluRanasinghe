@@ -26,14 +26,6 @@ I'm passionate about building *production-ready backend systems, **AI/ML solutio
 ### 🌐 *Frontend Development*
 - React.js  
 - HTML, CSS, JavaScript  
-- Tailwind CSS  
-
-### ☁ *Cloud & DevOps*
-- AWS Lambda, S3, CloudFront  
-- AWS CloudWatch, Bedrock  
-- Git, GitHub  
-- IntelliJ IDEA, VS Code  
-- Docker (basic)  
 
 ---
 
@@ -85,32 +77,28 @@ Arduino | TinyGPSPlus | SIM800L GSM | Motor Control Logic
 - *Databricks – Generative AI Fundamentals*  
 - *Databricks – Fundamentals Certification*  
 - *Cisco Python Essentials 1 & 2*  
-- Additional certifications in progress (AWS, Microsoft)
+- DeepLearning.Ai and Stanford University - Machine Learning Specialization
+- *Oracle - Oracle Cloud Infrastructure 2025 Certified Generative AI Professional
+- *Oracle - Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
 
 ---
 
 ## 🎯 Current Learning Roadmaps
 - Advanced AI/ML engineering  
 - Spring Boot + server-side Java mastery  
-- AWS services (Lambda, S3, CloudFront, Bedrock)  
-- Full-stack development with React + Java  
-- Quantum computing fundamentals (exploration path)
-
 ---
 
 ## 🏁 Goals
-- Secure a Software Engineering / Backend / AI Engineer job by *January 2026*  
-- Build LinkedIn-ready, real-world projects  
+- Build  real-world projects  
 - Master production-level tools used in the tech industry  
-- Become industry-ready in AI/ML, backend, and cloud technologies  
+- Become industry-ready in AI/ML, backend technologies  
 
 ---
 
 ## 📫 Connect With Me
 
-*LinkedIn:* (add your link)  
-*Email:* (add your email)  
-*GitHub Projects:* Scroll down to pinned repos 👇
+*LinkedIn:* https://www.linkedin.com/in/ransilu-ranasinghe-a596792ba  
+*Email:* dinisthar@gmail.com  
 
 ---
 
