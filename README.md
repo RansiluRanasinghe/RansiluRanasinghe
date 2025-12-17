@@ -1,105 +1,169 @@
-# 👋 Hi, I'm Ransilu
+<div align="center">
 
-### Software Engineer | Backend Developer | AI & Machine Learning Enthusiast  
-2nd-year Computer Science Undergraduate
+![Header](https://capsule-render.vercel.app/api?type=waving&height=200&text=Ransilu%20Ranasinghe&fontAlign=50&fontAlignY=35&color=gradient&desc=Machine%20Learning%20Engineer&descAlign=50&descAlignY=55)
 
-I'm passionate about building *production-ready backend systems, **AI/ML solutions, and **full-stack applications* using industry-standard tools. I enjoy turning ideas into clean, scalable projects while constantly expanding my skills through certifications, hands-on practice, and real-world simulations.
+![Profile Views](https://komarev.com/ghpvc/?username=ransiluranasinghe&label=Profile%20Views&color=0e75b6&style=flat)
 
----
-
-## 🚀 Tech Stack & Focus Areas
-
-### 🧠 *AI / Machine Learning*
-- Python (Advanced), NumPy, Pandas  
-- Logistic Regression, Neural Networks  
-- Data preprocessing, feature engineering  
-- Databricks, ML pipelines  
-
-### 🖥 *Backend Development*
-- Java 17, Spring Boot  
-- RESTful APIs, JSON handling  
-- MySQL, MongoDB Atlas  
-- Servlet-based architectures  
-- Postman API testing  
-- OOP, clean architecture  
-
-### 🌐 *Frontend Development*
-- React.js  
-- HTML, CSS, JavaScript  
+</div>
 
 ---
 
-## 📌 Featured Projects
+## 👋 About Me
 
-### 🔹 *AI-Powered Cover Letter Generator*
-Python | PySimpleGUI | MongoDB Atlas | Gemini API  
-- CLI → GUI upgrade  
-- Authentication system (login/sign-up)  
-- Auto-generated cover letters  
-- Saved history sidebar  
-- Clean UI layout  
-➡ A complete AI desktop application built from scratch
+I'm a **Machine Learning Engineer** focused on building reliable machine learning systems and production-ready backend APIs. I enjoy the challenge of turning data into solutions and making sure they're production-ready.
 
----
-
-### 🔹 *React + Spring Boot Full-Stack Simulation*
-React.js | Java 17 | Spring Boot | MySQL | IntelliJ | Postman  
-- Modern frontend with React  
-- Backend REST API with Spring Boot  
-- Proper MySQL schema design  
-- API testing with Postman  
-- Clean folder structure  
+Currently focused on:
+- Building ML models from the ground up
+- Creating clean, scalable backend APIs
+- Understanding the math behind the models
+- Learning how to deploy ML systems effectively
 
 ---
 
-### 🔹 *NumPy-Based Logistic Regression (From Scratch)*
-Python | NumPy | Math-based ML implementation  
-- Fully coded without ML libraries  
-- Loss visualization  
-- Gradient descent implementation  
-- Clean code + documentation  
-➡ Highly educational ML engineering project
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### Core ML
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+### Backend & Data
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
 
 ---
 
-### 🔹 *GPS + GSM Smart Safety System for Vehicles*
-Arduino | TinyGPSPlus | SIM800L GSM | Motor Control Logic  
-- Real-time GPS speed calculation  
-- Speed-controlled motor PWM logic  
-- Seat belt + unauthorized stop alerts  
-- SMS notifications  
-- LED speed indicator logic  
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 Credit Card Fraud Detection
+**ML System with Imbalanced Learning**
+
+```yaml
+Tech: Random Forest, FastAPI, Scikit-learn
+Focus: Production-ready anomaly detection
+```
+
+- ✅ Handled severe class imbalance (SMOTE + undersampling)
+- ✅ Risk-optimized decision thresholds
+- ✅ RESTful API with comprehensive error handling
+- ✅ Model persistence & versioning
+
+**Impact**: End-to-end fraud detection pipeline ready for deployment
+
+</td>
+<td width="50%">
+
+### 📊 Loan Default Prediction
+**XGBoost Classification Pipeline**
+
+```yaml
+Tech: XGBoost, Pandas, Feature Engineering
+Focus: Financial risk modeling
+```
+
+- ✅ Advanced feature engineering & selection
+- ✅ Handling missing data with domain logic
+- ✅ Class imbalance mitigation strategies
+- ✅ Production-ready inference API
+
+**Impact**: Interpretable model identifying key default indicators
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🤖 AI Cover Letter Generator
+**NLP Application with Cloud Integration**
+
+```yaml
+Tech: Gemini API, MongoDB Atlas, Python
+Focus: Full-stack ML application
+```
+
+- ✅ Secure authentication & session management
+- ✅ Cloud database persistence (MongoDB Atlas)
+- ✅ Modular architecture with clean separation
+- ✅ User-friendly GUI with history tracking
+
+**Impact**: Complete AI application from ideation to deployment
+
+</td>
+<td width="50%">
+
+### 🧮 Logistic Regression from Scratch
+**Mathematical Implementation**
+
+```yaml
+Tech: NumPy (pure Python)
+Focus: First-principles ML engineering
+```
+
+- ✅ Gradient descent optimization
+- ✅ Vectorized implementations for efficiency
+- ✅ Loss curve analysis & convergence tracking
+- ✅ Clean, documented, production-style code
+
+**Impact**: Deep understanding of ML fundamentals, not black-box usage
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎓 Certifications
+## 📊 GitHub Stats
 
-- *Databricks – Generative AI Fundamentals*  
-- *Databricks – Fundamentals Certification*  
-- *Cisco Python Essentials 1 & 2*  
-- DeepLearning.Ai and Stanford University - Machine Learning Specialization
-- *Oracle - Oracle Cloud Infrastructure 2025 Certified Generative AI Professional
-- *Oracle - Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=ransiluranasinghe&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+<img src="https://github-readme-streak-stats.demolab.com/?user=ransiluranasinghe&theme=tokyonight&hide_border=true" height="170"/>
 
-## 🎯 Current Learning Roadmaps
-- Advanced AI/ML engineering  
-- Spring Boot + server-side Java mastery  
----
-
-## 🏁 Goals
-- Build  real-world projects  
-- Master production-level tools used in the tech industry  
-- Become industry-ready in AI/ML, backend technologies  
+</div>
 
 ---
 
-## 📫 Connect With Me
+## 🎯 What I'm Learning
 
-*LinkedIn:* https://www.linkedin.com/in/ransilu-ranasinghe-a596792ba  
-*Email:* dinisthar@gmail.com  
+- Deep learning architectures (CNNs, RNNs)
+- MLOps and model deployment best practices
+- Advanced feature engineering techniques
+- Building end-to-end ML pipelines
+- Cloud-based ML deployment (AWS, Dockerized inference)
 
 ---
 
-⭐ Thanks for stopping by! Feel free to explore my work and reach out for collaborations or opportunities.
+## 📫 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ransilu-ranasinghe)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dinisthar@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RansiluRanasinghe)
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐ Building ML solutions that go beyond notebooks**
+
+![Wave](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer)
+
+</div>
