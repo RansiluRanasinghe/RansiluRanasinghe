@@ -10,13 +10,13 @@
 
 ## 👋 About Me
 
-I'm a **Machine Learning Engineer** passionate about building models and backend systems that actually work. I enjoy the challenge of turning data into solutions and making sure they're production-ready.
+I'm a **Machine Learning Engineer** focused on building reliable ML systems and production-ready solutions. My work spans supervised learning, unsupervised intelligence, and computer vision — with an emphasis on clean code, evaluation-driven development, and deployment thinking.
 
-Currently focused on:
-- Building ML models from the ground up
-- Creating clean, scalable backend APIs
-- Understanding the math behind the models
-- Learning how to deploy ML systems effectively
+**Current Focus:**
+- Deep learning model development (CNNs, RNNs)
+- Unsupervised learning for operational insights
+- Backend API design for ML systems
+- Production-ready ML engineering
 
 ---
 
@@ -31,7 +31,7 @@ Currently focused on:
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### Backend & Data
+### Backend & Infrastructure
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -49,38 +49,42 @@ Currently focused on:
 <tr>
 <td width="50%">
 
-### 🎯 Credit Card Fraud Detection
-**ML System with Imbalanced Learning**
+### 🎯 TicketCluster
+**Unsupervised NLP System**
 
 ```yaml
-Tech: Random Forest, FastAPI, Scikit-learn
-Focus: Production-ready anomaly detection
+Tech: K-Means, FastAPI, scikit-learn
+Focus: Customer support intelligence
 ```
 
-- ✅ Handled severe class imbalance (SMOTE + undersampling)
-- ✅ Risk-optimized decision thresholds
-- ✅ RESTful API with comprehensive error handling
-- ✅ Model persistence & versioning
+- ✅ Unsupervised clustering of support tickets
+- ✅ TF-IDF vectorization & semantic analysis
+- ✅ API-ready local inference layer
+- ✅ Business-driven cluster interpretation
 
-**Impact**: End-to-end fraud detection pipeline ready for deployment
+**Impact**: Discovers emerging issue patterns without labeled data
+
+[View Project →](https://github.com/RansiluRanasinghe/TicketCluster-Unsupervised-ML)
 
 </td>
 <td width="50%">
 
-### 📊 Loan Default Prediction
-**XGBoost Classification Pipeline**
+### 🔍 DeepSign
+**CNN-Based Sign Language Recognition**
 
 ```yaml
-Tech: XGBoost, Pandas, Feature Engineering
-Focus: Financial risk modeling
+Tech: TensorFlow, Keras, CNN
+Focus: Computer vision for accessibility
 ```
 
-- ✅ Advanced feature engineering & selection
-- ✅ Handling missing data with domain logic
-- ✅ Class imbalance mitigation strategies
-- ✅ Production-ready inference API
+- ✅ 24-class ASL alphabet classification
+- ✅ Custom CNN architecture with augmentation
+- ✅ Evaluation-driven training (epoch 24 optimal)
+- ✅ Production-ready model design
 
-**Impact**: Interpretable model identifying key default indicators
+**Impact**: Real-time ASL gesture recognition system
+
+[View Project →](https://github.com/RansiluRanasinghe/DeepSign-CNN-Based-Sign-Language-Recognition-System)
 
 </td>
 </tr>
@@ -88,38 +92,38 @@ Focus: Financial risk modeling
 <tr>
 <td width="50%">
 
-### 🤖 AI Cover Letter Generator
-**NLP Application with Cloud Integration**
+### 💳 Credit Card Fraud Detection
+**Imbalanced Learning System**
 
 ```yaml
-Tech: Gemini API, MongoDB Atlas, Python
-Focus: Full-stack ML application
+Tech: Random Forest, FastAPI, SMOTE
+Focus: Anomaly detection
 ```
 
-- ✅ Secure authentication & session management
-- ✅ Cloud database persistence (MongoDB Atlas)
-- ✅ Modular architecture with clean separation
-- ✅ User-friendly GUI with history tracking
+- ✅ Severe class imbalance handling
+- ✅ Risk-optimized decision thresholds
+- ✅ RESTful API with error handling
+- ✅ Model versioning & persistence
 
-**Impact**: Complete AI application from ideation to deployment
+**Impact**: End-to-end fraud detection pipeline
 
 </td>
 <td width="50%">
 
-### 🧮 Logistic Regression from Scratch
-**Mathematical Implementation**
+### 📊 Loan Default Prediction
+**XGBoost Classification**
 
 ```yaml
-Tech: NumPy (pure Python)
-Focus: First-principles ML engineering
+Tech: XGBoost, Pandas
+Focus: Financial risk modeling
 ```
 
-- ✅ Gradient descent optimization
-- ✅ Vectorized implementations for efficiency
-- ✅ Loss curve analysis & convergence tracking
-- ✅ Clean, documented, production-style code
+- ✅ Advanced feature engineering
+- ✅ Missing data handling strategies
+- ✅ Class imbalance mitigation
+- ✅ Production-ready inference API
 
-**Impact**: Deep understanding of ML fundamentals, not black-box usage
+**Impact**: Interpretable default prediction model
 
 </td>
 </tr>
@@ -127,28 +131,18 @@ Focus: First-principles ML engineering
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ransiluranasinghe&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-<img src="https://streak-stats.demolab.com/?user=ransiluranasinghe&theme=tokyonight&hide_border=true" height="170"/>
+<img src="https://metrics.lecoq.io/ransiluranasinghe?template=classic&base.header=0&base.activity=1&base.community=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=6&languages.colors=github&languages.threshold=0%25" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ransiluranasinghe&theme=tokyo-night&hide_border=true" />
 
 </div>
 
 ---
 
-## 🎯 What I'm Learning
-
-- Deep learning architectures (CNNs, RNNs)
-- MLOps and model deployment best practices
-- Advanced feature engineering techniques
-- Building end-to-end ML pipelines
-- Cloud platforms for ML (AWS, GCP)
-
----
-
-## 📫 Let's Connect
+## 📫 Connect
 
 <div align="center">
 
@@ -162,7 +156,7 @@ Focus: First-principles ML engineering
 
 <div align="center">
 
-**⭐ Building ML solutions that go beyond notebooks**
+**Building production-ready ML systems, not just training models**
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer)
 
