@@ -1,0 +1,147 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep dark ML-themed gradient background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020818"/>
+      <stop offset="40%" style="stop-color:#050d2e"/>
+      <stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+
+    <!-- Accent glow for nodes -->
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="60%" style="stop-color:#e2e8f0"/>
+      <stop offset="100%" style="stop-color:#94a3b8"/>
+    </linearGradient>
+
+    <!-- Cyan accent gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+
+    <filter id="nodeGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="lineGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="0" y1="25" x2="900" y2="25"/>
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="75" x2="900" y2="75"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="125" x2="900" y2="125"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="175" x2="900" y2="175"/>
+    <line x1="75" y1="0" x2="75" y2="200"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+    <line x1="225" y1="0" x2="225" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="375" y1="0" x2="375" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/>
+    <line x1="525" y1="0" x2="525" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="675" y1="0" x2="675" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+    <line x1="825" y1="0" x2="825" y2="200"/>
+  </g>
+
+  <!-- Neural network right side decoration -->
+  <!-- Glow halos behind nodes -->
+  <ellipse cx="720" cy="60" rx="28" ry="28" fill="url(#glow1)"/>
+  <ellipse cx="800" cy="100" rx="32" ry="32" fill="url(#glow2)"/>
+  <ellipse cx="720" cy="140" rx="28" ry="28" fill="url(#glow3)"/>
+  <ellipse cx="840" cy="50" rx="20" ry="20" fill="url(#glow1)"/>
+  <ellipse cx="840" cy="150" rx="20" ry="20" fill="url(#glow2)"/>
+  <ellipse cx="870" cy="100" rx="24" ry="24" fill="url(#glow1)"/>
+
+  <!-- Neural network connecting lines (layer 1 → 2) -->
+  <g filter="url(#lineGlow)" opacity="0.5">
+    <line x1="720" y1="60" x2="800" y2="100" stroke="#00d4ff" stroke-width="0.8"/>
+    <line x1="720" y1="140" x2="800" y2="100" stroke="#00d4ff" stroke-width="0.8"/>
+    <line x1="720" y1="60" x2="800" y2="60" stroke="#7c3aed" stroke-width="0.5" opacity="0.6"/>
+    <line x1="720" y1="140" x2="800" y2="140" stroke="#7c3aed" stroke-width="0.5" opacity="0.6"/>
+    <line x1="840" y1="50" x2="800" y2="100" stroke="#00d4ff" stroke-width="0.8"/>
+    <line x1="840" y1="150" x2="800" y2="100" stroke="#00d4ff" stroke-width="0.8"/>
+  </g>
+  <!-- Layer 2 → 3 -->
+  <g filter="url(#lineGlow)" opacity="0.45">
+    <line x1="800" y1="100" x2="870" y2="100" stroke="#00ff88" stroke-width="1"/>
+    <line x1="840" y1="50" x2="870" y2="100" stroke="#00d4ff" stroke-width="0.7"/>
+    <line x1="840" y1="150" x2="870" y2="100" stroke="#00d4ff" stroke-width="0.7"/>
+  </g>
+
+  <!-- Neural nodes layer 1 -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="720" cy="60" r="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="720" cy="100" r="4" fill="#7c3aed" opacity="0.7"/>
+    <circle cx="720" cy="140" r="5" fill="#00d4ff" opacity="0.9"/>
+  </g>
+  <!-- Layer 2 -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="800" cy="60" r="4" fill="#7c3aed" opacity="0.7"/>
+    <circle cx="800" cy="100" r="6" fill="#00d4ff" opacity="1"/>
+    <circle cx="800" cy="140" r="4" fill="#7c3aed" opacity="0.7"/>
+  </g>
+  <!-- Layer 3 -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="840" cy="50" r="4.5" fill="#00ff88" opacity="0.85"/>
+    <circle cx="840" cy="100" r="4" fill="#00d4ff" opacity="0.7"/>
+    <circle cx="840" cy="150" r="4.5" fill="#00ff88" opacity="0.85"/>
+  </g>
+  <!-- Output node -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="870" cy="100" r="7" fill="#00d4ff" opacity="1"/>
+    <circle cx="870" cy="100" r="3.5" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- Extra scattered micro-dots for depth -->
+  <circle cx="660" cy="40" r="2" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="680" cy="160" r="1.5" fill="#00d4ff" opacity="0.35"/>
+  <circle cx="700" cy="90" r="1.5" fill="#00ff88" opacity="0.3"/>
+  <circle cx="760" cy="30" r="2" fill="#00d4ff" opacity="0.3"/>
+  <circle cx="760" cy="170" r="2" fill="#7c3aed" opacity="0.3"/>
+  <circle cx="880" cy="40" r="1.5" fill="#00ff88" opacity="0.3"/>
+  <circle cx="885" cy="155" r="1.5" fill="#00d4ff" opacity="0.3"/>
+
+  <!-- Left accent bar -->
+  <rect x="40" y="58" width="3" height="84" rx="2" fill="url(#accentGrad)" opacity="0.9"/>
+
+  <!-- Main name text -->
+  <text x="62" y="108" font-family="'Segoe UI', 'SF Pro Display', sans-serif"
+        font-size="42" font-weight="700" fill="url(#textGrad)" letter-spacing="-0.5">
+    Ransilu Ranasinghe
+  </text>
+
+  <!-- Role / tagline -->
+  <text x="63" y="138" font-family="'Segoe UI', 'SF Pro Text', sans-serif"
+        font-size="15" font-weight="400" fill="#64748b" letter-spacing="0.5">
+    machine learning engineer  ·  end-to-end ml systems  ·  production ai
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="40" y="158" width="280" height="1.5" rx="1" fill="url(#accentGrad)" opacity="0.5"/>
+</svg>
